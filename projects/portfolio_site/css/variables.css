@@ -1,1 +1,29 @@
-/* CSS Variables */
+/* CSS Variables - Design System */
+
+:root {
+    /* Colors */
+    --color-primary: #6366f1;    /* Indigo */
+    --color-secondary: #8b5cf6;  /* Purple */
+    --color-dark: #1e293b;       /* Slate dark */
+    --color-light: #f8fafc;      /* Slate light */
+    --color-text: #334155;       /* Slate text */
+    --color-white: #ffffff;
+    
+    /* Typography */
+    --font-main: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    --font-size-base: 16px;
+    --font-size-sm: 14px;
+    --font-size-lg: 20px;
+    --font-size-hero-title: 3.5rem;  /* Desktop */
+    --font-size-hero-subtitle: 1.25rem;
+    --font-size-nav: 1rem;
+    
+    /* Spacing */
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    
+    /* Transitions */
+    --transition: all 0.3s ease;
+}
