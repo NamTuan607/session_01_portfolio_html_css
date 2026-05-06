@@ -18,14 +18,14 @@
 }
 
 .hero h1 {
-    font-size: var(--font-size-hero-title);
+    font-size: clamp(2rem, 5vw, var(--font-size-hero-title));
     font-weight: 700;
     margin-bottom: 1rem;
     letter-spacing: -1px;
 }
 
 .hero p {
-    font-size: var(--font-size-hero-subtitle);
+    font-size: clamp(1rem, 2vw, var(--font-size-hero-subtitle));
     margin-bottom: 2.5rem;
     opacity: 0.95;
     font-weight: 300;
@@ -63,27 +63,8 @@
 /* Tablet */
 @media (max-width: 768px) {
     .hero {
-        min-height: calc(100vh - 70px);
+        min-height: calc(100vh - var(--header-height));
         padding: 1.5rem;
-    }
-
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .hero p {
-        font-size: 1.1rem;
-    }
-}
-
-/* Mobile */
-@media (max-width: 480px) {
-    .hero h1 {
-        font-size: 2rem;
-    }
-
-    .hero p {
-        font-size: 1rem;
     }
 
     .cta-button {
